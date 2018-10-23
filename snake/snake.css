@@ -1,0 +1,46 @@
+.btn{
+	width:100px;
+	height: 10px;
+	position: relative;
+	display: inline;
+	border:1px pink solid;
+}
+.grid{
+	width:200px;
+	height:400px;
+	margin-top: 20px;
+	display: inline-block;
+	border:1px solid grey;
+}
+.col{
+	width:20px;
+	height: 20px;
+	border:1px solid grey;
+	/* display: inline; */
+	float:left;
+	  box-sizing: border-box;
+}
+.row{
+	height:20px;
+	 display: inline;
+}
+body{
+	background-color: #eee;
+	text-align: center;
+}
+.snake{
+	width:20px;
+	height: 20px;
+	border:1px solid grey;
+	background-color: yellow;
+	float:left;
+	box-sizing: border-box;
+}
+.egg{
+	width:20px;
+	height: 20px;
+	border:1px solid grey;
+	background-color: green;
+	float:left;
+	box-sizing: border-box;
+}
